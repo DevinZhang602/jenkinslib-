@@ -9,7 +9,7 @@ def tools = new org.devops.tools()
 String workspace = "/opt/jenkins/workspace"
 
 //打印vars/hello.groovy的内容
-hello.call()
+hello()
 
 //Pipeline
 pipeline {
