@@ -8,7 +8,7 @@ def tools = new org.devops.tools()
 
 String workspace = "/opt/jenkins/workspace"
 
-//打印hello.groovy的内容
+//打印vars/hello.groovy的内容
 hello()
 
 //Pipeline
