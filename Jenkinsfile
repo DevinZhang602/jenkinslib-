@@ -70,7 +70,7 @@ pipeline {
                     steps{
                         timeout(time:30, unit:"MINUTES"){
                             script{
-                                print("代码扫描")
+                                println("代码扫描")
 				//new add test for share library color
 				tools.PrintMes("代码扫描",'green')
                             }
