@@ -36,7 +36,7 @@ pipeline {
                     script{ //填写运行代码
                         println('获取代码')
 			//new add test for share library color
-			tools.PrintMes("获取代码",'green')
+			tools.PrintMes("获取代码",'blue')
                         println("${test}")
                         input id: 'Test', message: '我们是否要继续？', ok: '是，继续吧！', parameters: [choice(choices: ['a', 'b'], description: '', name: 'test1')], submitter: 'devin,admin'
                     }
@@ -55,7 +55,7 @@ pipeline {
                             script{
                                 println('应用打包')
 				//new add test for share library color
-				tools.PrintMes("应用打包",'green')
+				tools.PrintMes("应用打包",'blue')
                                 mvnHome = tool "mvn36"
                                 println(mvnHome)
                                 
